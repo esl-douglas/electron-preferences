@@ -19,7 +19,7 @@ class DropdownField extends React.Component {
             <div className="field field-dropdown">
                 <div className="field-label">{ this.label }</div>
                 <select onChange={ this.onChange.bind(this) } value={ this.value }>
-                    <option value="">-- Select One --</option>
+                    <option value="">-- Selecionar --</option>
                     { options }
                 </select>
                 { this.help && <span className="help">{ this.help }</span> }
